@@ -1,0 +1,259 @@
+.box {
+  display: flex;
+}
+
+.h-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.v-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.full {
+  flex: 1;
+  align-self: stretch;
+}
+
+.full-x {
+  flex: 1;
+}
+
+.full-y {
+  align-self: stretch;
+}
+
+.stretch {
+  align-self: stretch;
+}
+
+.north {
+  align-items: flex-start;
+}
+
+.north-self {
+  align-self: flex-start;
+}
+
+.south {
+  align-items: flex-end;
+}
+
+.south-self {
+  align-self: flex-end;
+}
+
+.west {
+  justify-content: flex-start;
+}
+
+.east {
+  justify-content: flex-end;
+}
+
+.east-self {
+  margin-left: auto !important;
+}
+
+.west-self {
+  margin-right: auto !important;
+}
+
+/*
+* 元素水平均匀平铺，注意排列方向
+*/
+.HA {
+  justify-content: space-around;
+}
+
+/*
+* 元素水平三点平铺，注意排列方向
+*/
+.HB {
+  justify-content: space-between;
+}
+
+/*
+* 元素水平居中，注意排列方向
+*/
+.HC {
+  justify-content: center;
+}
+
+/*
+* 元素垂直均匀平铺，注意排列方向
+*/
+.VA {
+  align-content: space-around;
+}
+
+/*
+* 元素三点垂直平铺，注意排列方向
+*/
+.VB {
+  align-content: space-between;
+}
+
+/*
+* 元素垂直居中，注意排列方向
+*/
+.VC {
+  align-items: center;
+}
+
+.CC {
+  justify-content: center;
+  align-items: center;
+}
+
+.h-box-c {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.h-box-cc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.v-box-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.v-box-cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-wap {
+  flex-wrap: wrap;
+}
+
+.box-no-wap {
+  flex-wrap: nowrap;
+}
+
+.box-container {
+  display: flex;
+  > * {
+    flex: 1;
+  }
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+.hidden {
+  display: none !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+.auto-scroll {
+  overflow: auto;
+}
+
+.auto-scroll-x {
+  overflow-x: auto;
+}
+
+.auto-scroll-y {
+  overflow-y: auto;
+}
+
+//----------------------------------------------------------------------------------------------------------------------
+
+.fill {
+  width: 100%;
+  height: 100%;
+}
+
+.fill-x {
+  width: 100%;
+}
+
+.fill-y {
+  height: 100%;
+}
+
+.fill-x-10 {
+  width: 10%;
+}
+
+.fill-x-20 {
+  width: 20%;
+}
+
+.fill-x-30 {
+  width: 30%;
+}
+
+.fill-x-40 {
+  width: 40%;
+}
+
+.fill-x-50 {
+  width: 50%;
+}
+
+.fill-x-60 {
+  width: 60%;
+}
+
+.fill-x-70 {
+  width: 70%;
+}
+
+.fill-x-80 {
+  width: 80%;
+}
+
+.fill-x-90 {
+  width: 90%;
+}
+
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.fill-y-10 {
+  height: 10%;
+}
+
+.fill-y-20 {
+  height: 20%;
+}
+
+.fill-y-30 {
+  height: 30%;
+}
+
+.fill-y-40 {
+  height: 40%;
+}
+
+.fill-y-50 {
+  height: 50%;
+}
+
+.fill-y-60 {
+  height: 60%;
+}
+
+.fill-y-70 {
+  height: 70%;
+}
+
+.fill-y-80 {
+  height: 80%;
+}
+
+.fill-y-90 {
+  height: 90%;
+}
